@@ -1,5 +1,6 @@
-while true
+max=1080
+for i in `seq 2 $max`
 do
-echo i'm alive
-sleep 30
+    echo "$i"
+    sleep 60
 done
